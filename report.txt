@@ -1,0 +1,46 @@
+ Remove Suspicious Browser Extensions
+
+Objective:
+To gain a practical insight into browser security threats by identifying and analyzing suspicious or unused browser extensions.
+
+Browser Used: Google Chrome
+
+Extensions Installed and Evaluated:
+1. Google Docs Offline
+   - Reason: To be used offline for Google documents.
+   - Permissions: Access to the file system.
+   - Status: Safe.
+
+2. Momentum
+- Purpose: Replaces new tab page with personalized dashboard.
+   - Permissions: Read/modify all data on visited sites.
+   - Analysis: Convenient, but broad permissions can be dangerous if lost.
+   - Action: Uninstalled upon examination.
+
+3. Stands AdBlocker
+   - Purpose: Turns off ads on YouTube and other websites.
+   - Permissions: Read/modify all websites.
+- Analysis: Par for ad blockers, but indicative high permission access.
+- Action: Uninstalled to prevent exposure.
+
+Suspicious Permissions Found:
+- "Read and modify all your data on the sites you visit"
+
+Security Actions Taken:
+- Scanned all extensions.
+- Uninstalled Momentum and Stands AdBlocker after inspection.
+- Restarted browser and verified faster startup speed and reduced memory use.
+
+Conclusion
+This practice provided us with a good understanding of how browser add-ons with excessive permissions can be harmful. Even innocuous software can be attack surfaces if not handled properly.
+
+Screenshot Evidence:
+-  `before_removal.png` 
+-  `after_removal.png` 
+
+Result:
+Increased browser attack surface awareness and improved personal browser hygiene.
+
+
+
+
